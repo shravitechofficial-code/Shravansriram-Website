@@ -1,5 +1,5 @@
 export const IMPACT_STATS = [
-  { label: "AI Apps Built", value: "10+", description: "Full-stack production apps" },
+  { label: "Apps Built", value: "10+", description: "Full-stack production apps" },
   { label: "Revenue Impact", value: "$150M+", description: "Americas Geography (SA360)" },
   { label: "C-Level Consulting", value: "120+", description: "Strategic marketing guidance" },
   { label: "Deal Value", value: "$500M+", description: "Complex BD engagements" },
@@ -8,16 +8,16 @@ export const IMPACT_STATS = [
 export const PROJECTS = [
   {
     title: "Increased revenue by $28Mn USD Globally by Automating Pacing alerts in DV360",
-    description: "AI/automation application designed to save thousands of hours annually by optimizing campaign delivery.",
+    description: "Automation application designed to save thousands of hours annually by optimizing campaign delivery.",
     tags: ["Automation", "DV360", "Python"],
     link: "#",
     image: "https://picsum.photos/seed/pacing/800/600",
     type: "Google Internal",
   },
   {
-    title: "Accelerated Publishing Velocity for Authors via AI Strategic Insights",
-    description: "A platform for independent authors to manage their publishing lifecycle using AI-driven insights.",
-    tags: ["Product Lifecycle", "AI Strategy", "React"],
+    title: "Accelerated Publishing Velocity for Authors via Strategic Insights",
+    description: "A platform for independent authors to manage their publishing lifecycle using data-driven insights.",
+    tags: ["Product Lifecycle", "Strategy", "React"],
     link: "#",
     image: "https://picsum.photos/seed/authors/800/600",
     type: "Creator Ecosystems",
@@ -31,19 +31,19 @@ export const PROJECTS = [
     type: "Data Experiments",
   },
   {
-    title: "Scaled E-commerce Listing Production via Gemini API Automation",
-    description: "Generates a suite of 7 Amazon-style product listing images based on templates and AI content extraction.",
-    tags: ["E-commerce AI", "Gemini API", "Imagen"],
+    title: "Scaled E-commerce Listing Production via Automated Workflows",
+    description: "Generates a suite of 7 Amazon-style product listing images based on templates and content extraction.",
+    tags: ["E-commerce", "Automation", "Cloud"],
     link: "#",
     image: "https://picsum.photos/seed/amazon/800/600",
-    type: "E-commerce AI",
+    type: "E-commerce Tech",
   },
 ];
 
 export const SKILLS = [
-  { 
-    category: "AI & Automation", 
-    items: ["Full Stack Development", "Agentic Workflows", "RAG", "n8n", "Lovable", "Gumloop", "LangChain", "Python", "Qdrant", "Google AI Studio"] 
+  {
+    category: "Automation & Tech", 
+    items: ["Full Stack Development", "Automated Workflows", "RAG", "n8n", "Lovable", "Gumloop", "Python", "Qdrant", "Google Cloud"] 
   },
   { 
     category: "Product & Strategy", 
@@ -63,14 +63,14 @@ export const EXPERIENCE = [
   {
     company: "Google",
     location: "Hyderabad, IN",
-    role: "AI Product Manager & Strategist",
+    role: "Product Manager & Strategist",
     period: "Feb 2022 – Present",
     highlights: [
-      "Recognized as an AI Innovator (gTech 2024) for contributing practical AI/automation solutions.",
-      "Led 0-to-1 Development of HallpassAI: Architected Google's first autonomous agentic operations system for the $50M+ tuition reimbursement program.",
+      "Recognized as an Innovator (gTech 2024) for contributing practical automation solutions.",
+      "Led 0-to-1 Development of Hallpass: Architected Google's first autonomous operations system for the $50M+ tuition reimbursement program.",
       "Engineered Automated DV360 Campaign Pacing: Projected to save thousands of hours annually by optimizing delivery.",
-      "Spearheaded internal reporting automation using Google Colab/AI Studio to analyze media unification impact.",
-      "Designed and built diverse AI agents including RAG-based Document Insight and AI Video Ad Production workflows."
+      "Spearheaded internal reporting automation using Google Cloud tools to analyze media unification impact.",
+      "Designed and built diverse automation agents including RAG-based Document Insight and Video Production workflows."
     ]
   },
   {
@@ -139,65 +139,65 @@ export const EDUCATION = [
 export const VIBE_LOG = [
   {
     date: "2025-06-01",
-    title: "Ad Craft AI",
-    content: "Advanced AI-driven ad creative generation and optimization suite for multi-platform campaigns.",
+    title: "Ad Craft",
+    content: "Advanced ad creative generation and optimization suite for multi-platform campaigns.",
     status: "Shipped",
-    tags: ["E-commerce AI", "Creative Tech"],
+    tags: ["E-commerce", "Creative Tech"],
   },
   {
     date: "2024-02-05",
     title: "Instagram Reel Analysis",
     content: "Vibe-coded tool to analyze engagement metrics and content sentiment for short-form video. Exploring data-driven creativity.",
     status: "Experimental",
-    tags: ["Agentic Tools & Analytics"],
+    tags: ["Tools & Analytics"],
   },
   {
     date: "2025-06-05",
     title: "Resume Score",
-    content: "AI-powered resume analysis and scoring tool to optimize job applications based on target roles.",
+    content: "Resume analysis and scoring tool to optimize job applications based on target roles.",
     status: "Experimental",
     tags: ["Career Tech", "NLP"],
   },
   {
     date: "2024-01-10",
     title: "Authors Planet",
-    content: "A platform for independent authors to manage their publishing lifecycle using AI-driven insights. Bridging strategy and code.",
+    content: "A platform for independent authors to manage their publishing lifecycle using data-driven insights. Bridging strategy and code.",
     status: "Shipped",
     tags: ["Creator Ecosystems"],
   },
   {
     date: "2025-05-21",
     title: "Jumping over obstacles - shravan",
-    content: "AI creative coding partner for p5.js. Chat to generate interactive art and games, then edit and preview live.",
+    content: "Creative coding partner for p5.js. Generate interactive art and games, then edit and preview live.",
     status: "Experimental",
-    tags: ["Creative AI & Media"],
+    tags: ["Creative Media"],
   },
   {
     date: "2025-05-23",
     title: "Themed Image Composer",
-    content: "Combine uploaded image and text into stunning artwork using various AI-powered themes styled by Gemini API with Imagen.",
+    content: "Combine uploaded image and text into stunning artwork using various powered themes.",
     status: "Experimental",
-    tags: ["Creative AI & Media"],
+    tags: ["Creative Media"],
   },
   {
     date: "2025-05-24",
     title: "Amazon Product Image Generator",
-    content: "Generates 7 Amazon-style product images based on uploaded photos and description documents using Gemini API.",
+    content: "Generates 7 Amazon-style product images based on uploaded photos and description documents.",
     status: "Shipped",
-    tags: ["E-commerce AI"],
+    tags: ["E-commerce"],
   },
   {
     date: "2025-05-25",
     title: "ListingSpark Core",
-    content: "AI-powered web application to help e-commerce sellers generate a foundational set of three product listing images.",
+    content: "Web application to help e-commerce sellers generate a foundational set of three product listing images.",
     status: "Shipped",
-    tags: ["E-commerce AI"],
+    tags: ["E-commerce"],
   },
   {
     date: "2025-05-25",
-    title: "AI Avatar Studio",
+    title: "Avatar Studio",
     content: "Animated avatar from image and script. Select voice tones and record voice for a personalized touch.",
     status: "Experimental",
-    tags: ["Creative AI & Media"],
+    tags: ["Creative Media"],
   },
 ];

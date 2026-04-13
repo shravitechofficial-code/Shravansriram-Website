@@ -20,7 +20,7 @@ export default function Experience() {
           Professional Journey
         </h2>
         <h3 className="text-3xl sm:text-4xl md:text-6xl font-light tracking-tighter max-w-3xl leading-tight">
-          Scaling AI impact across <span className="italic">global ecosystems</span>.
+          Scaling impact across <span className="italic">global ecosystems</span>.
         </h3>
       </div>
 

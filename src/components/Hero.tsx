@@ -11,14 +11,14 @@ export default function Hero() {
         className="max-w-4xl"
       >
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tighter mb-8 leading-tight text-white drop-shadow-2xl">
-          AI Strategist & Builder.
+          Strategist & Builder.
           <br />
           <span className="text-white/80 italic font-light">Bridging strategy and execution.</span>
         </h1>
 
         <p className="text-sm sm:text-base md:text-lg text-white/90 max-w-xl mx-auto mb-12 font-medium leading-relaxed drop-shadow-lg">
-          Focused on architecting 0-to-1 AI product lifecycles. 
-          Specializing in agentic workflows and RAG with vibe coding
+          Focused on architecting 0-to-1 product lifecycles. 
+          Specializing in automated workflows and RAG with vibe coding
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

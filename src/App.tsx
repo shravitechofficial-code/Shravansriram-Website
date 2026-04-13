@@ -6,7 +6,6 @@
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import FloatingShapes from "./components/FloatingShapes";
-import ChatAgent from "./components/ChatAgent";
 import Hero from "./components/Hero";
 import ImpactTicker from "./components/ImpactTicker";
 import ProjectCard from "./components/ProjectCard";
@@ -29,7 +28,7 @@ function Home() {
             Selected Projects
           </h2>
           <h3 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tighter max-w-3xl leading-tight text-white">
-            Architecting AI product lifecycles from <span className="italic font-light text-white/80">zero to one</span>.
+            Architecting product lifecycles from <span className="italic font-light text-white/80">zero to one</span>.
           </h3>
         </div>
 
@@ -65,7 +64,6 @@ export default function App() {
   return (
     <div className="min-h-screen text-foreground selection:bg-black/5">
       <FloatingShapes />
-      <ChatAgent />
       <Navigation />
       
       <main className="pt-20">
@@ -81,8 +79,8 @@ export default function App() {
             <div className="max-w-md">
               <h2 className="text-2xl sm:text-3xl font-light tracking-tight mb-8">Let's build something meaningful.</h2>
               <p className="text-sm sm:text-base text-muted-foreground font-light leading-relaxed mb-10">
-                Currently exploring new opportunities in AI strategy and product development. 
-                Open to collaborations that push the boundaries of agentic systems.
+                Currently exploring new opportunities in strategy and product development. 
+                Open to collaborations that push the boundaries of digital systems.
               </p>
               <a 
                 href="mailto:shravansv1992@gmail.com" 

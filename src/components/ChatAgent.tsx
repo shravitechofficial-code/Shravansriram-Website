@@ -4,7 +4,13 @@ import { MessageSquare, X, Send, User, Bot, Loader2 } from "lucide-react";
 import { GoogleGenAI } from "@google/genai";
 import { PROJECTS, EXPERIENCE, SKILLS, VIBE_LOG } from "../constants";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const getAI = () => {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey || apiKey === "undefined") {
+    return null;
+  }
+  return new GoogleGenAI({ apiKey });
+};
 
 const SYSTEM_PROMPT = `
 You are an AI Agent representing Shravan Sriram, an AI Product Manager and Strategist.
@@ -50,6 +56,11 @@ export default function ChatAgent() {
     setIsLoading(true);
 
     try {
+      const ai = getAI();
+      if (!ai) {
+        throw new Error("API Key missing");
+      }
+
       const chat = ai.chats.create({
         model: "gemini-3-flash-preview",
         config: {
