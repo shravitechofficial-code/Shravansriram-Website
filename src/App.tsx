@@ -61,6 +61,7 @@ function Home() {
 }
 
 export default function App() {
+  console.log("App component rendering...");
   return (
     <div className="min-h-screen text-foreground selection:bg-black/5">
       <FloatingShapes />
