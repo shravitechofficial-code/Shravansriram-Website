@@ -2,6 +2,7 @@ import { EXPERIENCE, EDUCATION } from "../constants";
 import { motion, AnimatePresence } from "motion/react";
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import SEO from "./SEO";
 
 export default function Experience() {
   const [expandedItems, setExpandedItems] = useState<Record<string, boolean>>({});
@@ -15,6 +16,11 @@ export default function Experience() {
 
   return (
     <section className="py-24 md:py-40 px-6 max-w-7xl mx-auto">
+      <SEO 
+        title="Experience" 
+        description="Professional journey and academic background of Shravan Sriram. AI Strategist at Google, IIM Ahmedabad alumnus."
+        canonical="https://www.shravansriram.com/experience"
+      />
       <div className="mb-20 md:mb-32">
         <h2 className="text-[9px] sm:text-[10px] uppercase tracking-[0.5em] text-muted-foreground mb-6 font-bold">
           Professional Journey

@@ -136,6 +136,63 @@ export const EDUCATION = [
   }
 ];
 
+export const JOURNEY = [
+  {
+    year: "2025",
+    title: "AI Strategist @ Google",
+    description: "Started exploring AI solutions and Workflows. Switched roles at Google to focus on AI strategy.",
+    type: "Professional"
+  },
+  {
+    year: "2024",
+    title: "Marketing Solutions",
+    description: "Built advanced marketing solutions leveraging SA360 and DV360 ecosystems.",
+    type: "Professional"
+  },
+  {
+    year: "2023",
+    title: "Shravi Tech Pvt. Ltd.",
+    description: "Exploring the consulting space and independent technical ventures.",
+    type: "Entrepreneurial"
+  },
+  {
+    year: "2022",
+    title: "Digital Marketing Strategist @ Google",
+    description: "Joined Google to drive strategic marketing initiatives for global clients.",
+    type: "Professional"
+  },
+  {
+    year: "2021",
+    title: "Mentorship & Coaching",
+    description: "Began MBA interview mentorship and coaching for aspiring candidates.",
+    type: "Personal"
+  },
+  {
+    year: "2020",
+    title: "IIM Ahmedabad & Tata Group",
+    description: "Graduated from IIM Ahmedabad PGP and joined the Tata Group as a TAS Manager.",
+    type: "Academic & Professional"
+  },
+  {
+    year: "2017",
+    title: "Physical Endurance",
+    description: "Proved physical strength by completing a 225km cycling challenge in 18 hours.",
+    type: "Personal"
+  },
+  {
+    year: "2014",
+    title: "L&T Construction",
+    description: "Worked on Railways EPC projects in all capacities, gaining deep engineering experience.",
+    type: "Professional"
+  },
+  {
+    year: "2014",
+    title: "B.Tech Graduation",
+    description: "Graduated top of class, laying the foundation for a career in engineering and strategy.",
+    type: "Academic"
+  }
+];
+
 export const VIBE_LOG = [
   {
     date: "2025-06-01",

@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Github, Linkedin, Twitter, Menu, X } from "lucide-react";
+import { Linkedin, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -31,13 +31,7 @@ export default function Navigation() {
 
       <div className="flex items-center gap-2 md:gap-6">
         <div className="hidden sm:flex items-center gap-4">
-          <a href="#" className="text-white/40 hover:text-white transition-colors">
-            <Twitter className="w-4 h-4" />
-          </a>
-          <a href="#" className="text-white/40 hover:text-white transition-colors">
-            <Github className="w-4 h-4" />
-          </a>
-          <a href="#" className="text-white/40 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/shravan-sriram-sv/" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
             <Linkedin className="w-4 h-4" />
           </a>
         </div>
@@ -82,18 +76,12 @@ export default function Navigation() {
 
           <div className="mt-auto pt-10 border-t border-white/10">
             <div className="flex gap-8 mb-8">
-              <a href="#" className="text-white/40 hover:text-white transition-colors">
-                <Twitter className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-white/40 hover:text-white transition-colors">
-                <Github className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-white/40 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/shravan-sriram-sv/" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
             </div>
             <p className="text-[9px] uppercase tracking-[0.3em] text-white/20">
-              © 2024 Shravan Sriram
+              © 2026 Shravan Sriram
             </p>
           </div>
         </motion.div>

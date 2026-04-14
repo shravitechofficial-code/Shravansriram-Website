@@ -8,45 +8,24 @@ import Navigation from "./components/Navigation";
 import FloatingShapes from "./components/FloatingShapes";
 import Hero from "./components/Hero";
 import ImpactTicker from "./components/ImpactTicker";
-import ProjectCard from "./components/ProjectCard";
+import JourneyTimeline from "./components/JourneyTimeline";
 import SkillsCloud from "./components/SkillsCloud";
 import Experience from "./components/Experience";
 import VibeProjects from "./components/VibeProjects";
-import { PROJECTS } from "./constants";
+import SEO from "./components/SEO";
+import { JOURNEY } from "./constants";
 import { motion } from "motion/react";
 import React from 'react';
 
 function Home() {
   return (
     <>
+      <SEO />
       <Hero />
       <ImpactTicker />
       
-      {/* Projects Section */}
-      <section id="projects" className="py-24 md:py-40 px-6 max-w-7xl mx-auto relative z-10">
-        <div className="mb-20 md:mb-32">
-          <h2 className="text-[9px] sm:text-[10px] uppercase tracking-[0.5em] text-white/40 mb-6 font-bold">
-            Selected Projects
-          </h2>
-          <h3 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tighter max-w-3xl leading-tight text-white">
-            Architecting product lifecycles from <span className="italic font-light text-white/80">zero to one</span>.
-          </h3>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-24 md:gap-y-32">
-          {PROJECTS.map((project, i) => (
-            <motion.div
-              key={project.title}
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1, duration: 0.8 }}
-            >
-              <ProjectCard project={project} />
-            </motion.div>
-          ))}
-        </div>
-      </section>
+      {/* Journey Section */}
+      <JourneyTimeline />
 
       {/* Skills Section - Now on Home Page */}
       <div id="skills" className="border-y border-white/10 bg-black/60 backdrop-blur-xl relative z-10">
@@ -93,12 +72,9 @@ export default function App() {
               </div>
 
               <div className="flex flex-col items-start md:items-end gap-4 text-[9px] sm:text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-                <span>© 2024 Shravan Sriram</span>
-                <span>Minimalist Portfolio</span>
+                <span>© 2026 Shravan Sriram</span>
                 <div className="flex gap-6 mt-4">
-                  <a href="#" className="hover:text-black transition-colors">Twitter</a>
-                  <a href="#" className="hover:text-black transition-colors">Github</a>
-                  <a href="#" className="hover:text-black transition-colors">Linkedin</a>
+                  <a href="https://www.linkedin.com/in/shravan-sriram-sv/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Linkedin</a>
                 </div>
               </div>
             </div>

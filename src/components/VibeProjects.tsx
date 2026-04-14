@@ -1,9 +1,15 @@
 import { VIBE_LOG } from "../constants";
 import { motion } from "motion/react";
+import SEO from "./SEO";
 
 export default function VibeProjects() {
   return (
     <section className="py-24 md:py-40 px-6 max-w-7xl mx-auto">
+      <SEO 
+        title="Vibe-Projects" 
+        description="A collection of vibe-coded experiments and tools exploring AI, automation, and creative tech."
+        canonical="https://www.shravansriram.com/vibe-projects"
+      />
       <div className="mb-20 md:mb-32">
         <h2 className="text-[9px] sm:text-[10px] uppercase tracking-[0.5em] text-muted-foreground mb-6 font-bold">
           Vibe-Coded Experiments
