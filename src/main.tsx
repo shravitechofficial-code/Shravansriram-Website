@@ -5,10 +5,20 @@ import App from './App';
 import './index.css';
 
 console.log("Mounting React app...");
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </StrictMode>,
-);
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  console.error("Root element not found!");
+} else {
+  try {
+    createRoot(rootElement).render(
+      <StrictMode>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </StrictMode>,
+    );
+    console.log("React app render called.");
+  } catch (err) {
+    console.error("Error during initial render:", err);
+  }
+}
