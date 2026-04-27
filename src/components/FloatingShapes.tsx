@@ -126,8 +126,10 @@ function System({ system, mousePos }: { system: any, mousePos: { x: number, y: n
             rx={p.rx}
             ry={p.ry}
             fill="none"
-            stroke="rgba(255,255,255,0.05)"
+            stroke="white"
             strokeWidth="0.5"
+            className="opacity-[0.08]"
+            strokeDasharray="3 6"
           />
         ))}
       </svg>

@@ -193,6 +193,84 @@ export const JOURNEY = [
   }
 ];
 
+export const AI_PROJECTS = [
+  {
+    category: "Marketing & Advertising",
+    projects: [
+      { name: "AdCraft AI - backend integrated", description: "AI-powered marketing suite that analyzes businesses and generates targeted ad campaigns.", lastModified: "7 days ago" },
+      { name: "AdCraft AI - URL, Ecomm, Amazon", description: "AI-powered marketing suite focused on URL and E-commerce content scraping.", lastModified: "Mar 13, 2026" },
+      { name: "AdArchitect AI", description: "Multi-Agent System that turns URLs/product names into ads using deep market research.", lastModified: "Apr 2, 2026" },
+      { name: "Remix: AdCraft AI - UI Updted", description: "AI marketing suite with updated UI for business analysis and persona generation.", lastModified: "Apr 2, 2026" },
+      { name: "AI Ad Generator", description: "Generates creative image advertisements from a product URL.", lastModified: "Feb 1, 2026" },
+      { name: "AI campaign and Ad Generator", description: "Generates creative image ads and suggests target audiences/concepts.", lastModified: "Oct 7, 2025" },
+      { name: "AI Product Ad Creator", description: "Analyzes products from images/URLs to create ad ideas and animated creatives.", lastModified: "May 28, 2025" },
+      { name: "AI Persona Architect", description: "Analyzes URLs to understand audiences, generate personas, and craft messages.", lastModified: "Jun 4, 2025" },
+      { name: "Integrated Screen Planner", description: "Tool to optimize TV and Digital media mix for maximum reach (Sainsbury methodology).", lastModified: "Jul 17, 2025" }
+    ]
+  },
+  {
+    category: "Social Media & Content Analysis",
+    projects: [
+      { name: "InstaLink Auto-Poster", description: "Automates LinkedIn posts from Instagram reels in the style of Justin Welsh.", lastModified: "Apr 10, 2026" },
+      { name: "InstaBrand Analyst", description: "Dashboard that analyzes competitor Instagram presence for strategic recommendations.", lastModified: "Dec 21, 2025" },
+      { name: "Social Content AI Generator", description: "AI application that generates a comprehensive social media content plan.", lastModified: "Sep 17, 2025" },
+      { name: "Instagram Reel Analyzer (Naveen)", description: "Provides summary, hook analysis, transcript, and frame-by-frame breakdown.", lastModified: "Aug 27, 2025" },
+      { name: "Reel Hook Classifier AI", description: "Categorizes Instagram Reel hooks based on predefined criteria from CSV transcripts.", lastModified: "Sep 12, 2025" },
+      { name: "Instagram Video Analyzer", description: "Detailed analysis of Reels including on-screen text and action/emotion analysis.", lastModified: "Sep 14, 2025" },
+      { name: "AI Instagram Profile Rater", description: "Rates Instagram profile engagement and content using Apify and Gemini APIs.", lastModified: "Oct 11, 2025" },
+      { name: "Maps Social Gen", description: "Transforms Google Maps reviews and images into social media content.", lastModified: "Dec 21, 2025" },
+      { name: "ReviewPulse AI", description: "Analyzes Google Maps reviews for sentiment insights and Instagram campaigns.", lastModified: "Dec 13, 2025" }
+    ]
+  },
+  {
+    category: "Business Operations & Logistics",
+    projects: [
+      { name: "Modern Agencies", description: "Comprehensive distributor management system to track invoices and payments.", lastModified: "11 hours ago" },
+      { name: "LogiFlow - Intelligent Dispatch", description: "Smart logistics manager with Gemini-powered multi-vehicle route optimization.", lastModified: "Jan 19, 2026" },
+      { name: "Verity HR Compliance Agent", description: "AI agent that reads HR policies from Google Drive to ensure compliance.", lastModified: "12 days ago" },
+      { name: "Shravi Tech - Client Management", description: "Web application to generate, manage, and download invoices.", lastModified: "Aug 5, 2025" },
+      { name: "AI Expense Tracker", description: "Intelligent application to track expenses via manual entry or receipt scanning.", lastModified: "Jul 28, 2025" },
+      { name: "Hyperlocal Laundry", description: "Marketplace application for a gated society to aggregate laundry providers.", lastModified: "Apr 3, 2026" },
+      { name: "AI Agent Job Portal", description: "Platform for companies to post AI agent requirements and creators to showcase solutions.", lastModified: "Jun 14, 2025" }
+    ]
+  },
+  {
+    category: "Video, Audio & Image Tools",
+    projects: [
+      { name: "Veo Animate", description: "AI video generator using Google's Veo 3 model to create scenes from prompts.", lastModified: "11 days ago" },
+      { name: "UGC AI Video Generator", description: "Analyzes images to generate avatar images and simulated UGC video scripts.", lastModified: "May 28, 2025" },
+      { name: "AI Avatar Speaker", description: "Generates a personalized AI avatar and makes it speak using Text-to-Speech.", lastModified: "May 28, 2025" },
+      { name: "AI Image Editor Pro", description: "Canva-like application for AI-powered image generation and multi-slide designs.", lastModified: "Jun 13, 2025" },
+      { name: "Nadiyaa AI Bulk Image Editor", description: "Automatically applies predefined edits to multiple user-uploaded images.", lastModified: "Oct 7, 2025" },
+      { name: "Gemini Video Analyzer", description: "Uploads video to extract frames and analyze content using Gemini API.", lastModified: "Jun 17, 2025" },
+      { name: "Video Summarizer AI", description: "Summarizes video content from Google Drive by analyzing frames and audio.", lastModified: "Jun 9, 2025" }
+    ]
+  },
+  {
+    category: "Education & Personal Growth",
+    projects: [
+      { name: "Botbrained Learn Roadmap Arch.", description: "AI curriculum and marketing strategy generator for role-based AI workflows.", lastModified: "Jan 19, 2026" },
+      { name: "Interview Coach", description: "AI coach that conducts real-time voice interviews and provides feedback.", lastModified: "12 days ago" },
+      { name: "FluencyFlow AI", description: "AI-powered English fluency testing agent conducting live voice interviews.", lastModified: "Mar 24, 2026" },
+      { name: "English Fluency Compass", description: "Assessment platform for candidates seeking global careers.", lastModified: "Dec 16, 2025" },
+      { name: "JobMatch AI Assistant", description: "Platform that matches resumes to real-time job listings using Search grounding.", lastModified: "Feb 23, 2026" },
+      { name: "UniHiv - Study Abroad Qualifier", description: "A conversion-first qualification website for study abroad aspirants.", lastModified: "Feb 16, 2026" }
+    ]
+  },
+  {
+    category: "Niche & Entertainment",
+    projects: [
+      { name: "Bhaat.in - Premium Grains", description: "E-commerce experience for premium rice and grains with a specific color scheme.", lastModified: "Jan 19, 2026" },
+      { name: "Aumkaar Wellness", description: "Premium sound healing, meditation, and mind management sanctuary.", lastModified: "Feb 2, 2026" },
+      { name: "Authors Planet V2.2", description: "Creative ecosystem for writers, authors, and publishers.", lastModified: "Feb 13, 2026" },
+      { name: "Nifty 500 Financial Analyst", description: "Professional stock screener and analyst for the Nifty 500 index.", lastModified: "Mar 24, 2026" },
+      { name: "Pokémon Card Trader AI", description: "Interactive web application to trade Pokémon cards with an AI opponent.", lastModified: "Jul 17, 2025" },
+      { name: "Wedzat - Wedding Inspiration", description: "Platform to discover wedding videos and connect with vendors.", lastModified: "Jun 14, 2025" },
+      { name: "SynergySpace", description: "Platform to discover and manage unique corporate team-building activities.", lastModified: "Jun 14, 2025" }
+    ]
+  }
+];
+
 export const VIBE_LOG = [
   {
     date: "2025-06-01",
